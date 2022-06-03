@@ -55,4 +55,4 @@ def user(id=None):
 
 
 
-app.run()#(port=8080,debug=True)
+app.run(debug=False,host='0.0.0.0')#(port=8080,debug=True)
